@@ -16,7 +16,6 @@ class TestRand(unittest.TestCase):
         result = rand()
         self.assertTrue(len(result) >= 5 and len(result) <= 50)
 
-
     def test_rand_exclamation(self):
         result = rand()
         self.assertEqual(result, "!" * len(result))
